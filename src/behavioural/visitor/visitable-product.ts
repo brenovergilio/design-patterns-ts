@@ -1,4 +1,4 @@
-import { TaxVisitorProtocol } from './tax-visitor-protocol';
+import { TaxVisitorProtocol } from './tax-visitor';
 
 export abstract class VisitableProduct {
   constructor(protected name: string, protected price: number) {}

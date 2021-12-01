@@ -1,7 +1,7 @@
 import { AlcoholicDrink } from './alcoholic-drink';
 import { Cigarette } from './cigarette';
 import { Food } from './food';
-import { TaxVisitorProtocol } from './tax-visitor-protocol';
+import { TaxVisitorProtocol } from './tax-visitor';
 
 export class BrazilTaxVisitor implements TaxVisitorProtocol {
   calculateTaxesForFood(food: Food): number {

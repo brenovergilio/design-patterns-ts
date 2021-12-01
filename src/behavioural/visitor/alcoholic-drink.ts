@@ -1,4 +1,4 @@
-import { TaxVisitorProtocol } from './tax-visitor-protocol';
+import { TaxVisitorProtocol } from './tax-visitor';
 import { VisitableProduct } from './visitable-product';
 
 export class AlcoholicDrink extends VisitableProduct {
